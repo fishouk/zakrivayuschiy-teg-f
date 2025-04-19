@@ -30,5 +30,10 @@
 
   /* Размеры */
   --border-card: 2px solid var(--color-black);
+
+  /* Цвет сердца */
+  --heart-black-color: #000;
+  --heart-white-color: #fff;
+  --heart-red-color: #FF0000;
 }
 
