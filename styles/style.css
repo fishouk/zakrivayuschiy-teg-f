@@ -116,12 +116,10 @@
   font-size: var(--font-size-small);
   color: var(--color-black);
   mix-blend-mode: hard-light;
-  
-  text-shadow: 
-    1px 1px 0 var(--color-white),
-    -1px 1px 0 var(--color-white),
-    1px -1px 0 var(--color-white),
-    -1px -1px 0 var(--color-white);
+  z-index: 1;
+  text-shadow: 1px 1px 0 0 var(--color-white);
+  -webkit-text-stroke: 1px var(--color-white);
+  text-stroke: 1px var(--color-white);
 }
 
 .card__image {
