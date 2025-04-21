@@ -69,6 +69,7 @@
 
 .hero__title-span {
   font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+  letter-spacing: 0;
 }
 
 /* карточка */
@@ -81,6 +82,7 @@
 @supports (-webkit-text-stroke: 1px) or (text-stroke: 1px) {
   .card__caption {
     text-shadow: none;
+    opacity: 0.5;
     -webkit-text-stroke: 1px var(--color-white);
     text-stroke: 1px var(--color-white);
   }
@@ -110,8 +112,8 @@
 
 .card__caption {
   position: absolute;
-  top: 20px;
-  right: 11px;
+  top: 22px;
+  right: 24px;
   font-family: var(--font-press-start-2p);
   font-size: var(--font-size-small);
   color: var(--color-black);
@@ -176,12 +178,6 @@
 
 .card__content p {
   margin-block-end: 24px;
-}
-
-@media (width >= 1440px) {
-  .card__content p {
-    margin-block-end: 29px;
-  }
 }
 
 .card__content p:last-of-type {
