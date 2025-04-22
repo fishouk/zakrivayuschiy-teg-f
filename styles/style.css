@@ -392,8 +392,8 @@
 }
 
 .like-icon.is-liked .sparks {
-  fill: red;
-  animation: show-sparks 0.3s ease-in 0.3s forwards;
+  fill: var(--heart-red-color);
+  animation: show-sparks 0.6s ease-in 0.3s forwards;
   animation-iteration-count: 1;
 }
 
